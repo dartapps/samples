@@ -15,7 +15,9 @@ library for each sample:
 ```bash
 cd hello_world/hello_library
 cmake .
-# MacBook(M1)  cmake -DCMAKE_SYSTEM_PROCESSOR=arm64 -DCMAKE_OSX_ARCHITECTURES=arm64 .
+# MacBook M1
+# arm64 or x86_64
+# cmake -DCMAKE_SYSTEM_PROCESSOR=arm64 -DCMAKE_OSX_ARCHITECTURES=arm64 .
 make
 ```
 
